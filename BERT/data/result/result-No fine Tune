@@ -1,0 +1,83 @@
+(PyTorch-1.4) [ma-user Bert-Pytorch-TextClassification]$python main.py 
+加载数据集
+180000it [00:21, 8559.58it/s]
+10000it [00:01, 8992.21it/s]
+10000it [00:01, 8994.33it/s]
+模型开始前，准备数据时间: 0:00:23
+Epoch [1/3]
+Iter:      0,  Train Loss:   2.4,  Train Acc: 16.41%,  Val Loss:   2.4,  Val Acc:  9.08%,  Time: 0:00:12 *
+Iter:    100,  Train Loss:   2.2,  Train Acc: 27.34%,  Val Loss:   2.1,  Val Acc: 29.42%,  Time: 0:00:37 *
+Iter:    200,  Train Loss:   2.0,  Train Acc: 39.06%,  Val Loss:   1.8,  Val Acc: 55.56%,  Time: 0:01:03 *
+Iter:    300,  Train Loss:   1.7,  Train Acc: 58.59%,  Val Loss:   1.6,  Val Acc: 64.52%,  Time: 0:01:28 *
+Iter:    400,  Train Loss:   1.7,  Train Acc: 58.59%,  Val Loss:   1.4,  Val Acc: 71.41%,  Time: 0:01:53 *
+Iter:    500,  Train Loss:   1.4,  Train Acc: 74.22%,  Val Loss:   1.3,  Val Acc: 72.80%,  Time: 0:02:18 *
+Iter:    600,  Train Loss:   1.3,  Train Acc: 69.53%,  Val Loss:   1.2,  Val Acc: 74.07%,  Time: 0:02:44 *
+Iter:    700,  Train Loss:   1.3,  Train Acc: 71.88%,  Val Loss:   1.1,  Val Acc: 75.13%,  Time: 0:03:09 *
+Iter:    800,  Train Loss:   1.2,  Train Acc: 68.75%,  Val Loss:   1.1,  Val Acc: 75.83%,  Time: 0:03:34 *
+Iter:    900,  Train Loss:   1.2,  Train Acc: 71.88%,  Val Loss:   1.0,  Val Acc: 76.55%,  Time: 0:03:59 *
+Iter:   1000,  Train Loss:   1.2,  Train Acc: 64.84%,  Val Loss:   1.0,  Val Acc: 76.86%,  Time: 0:04:25 *
+Iter:   1100,  Train Loss:   1.1,  Train Acc: 76.56%,  Val Loss:  0.98,  Val Acc: 77.24%,  Time: 0:04:50 *
+Iter:   1200,  Train Loss:   1.1,  Train Acc: 75.00%,  Val Loss:  0.95,  Val Acc: 77.34%,  Time: 0:05:15 *
+Iter:   1300,  Train Loss:   1.1,  Train Acc: 69.53%,  Val Loss:  0.93,  Val Acc: 77.59%,  Time: 0:05:41 *
+Iter:   1400,  Train Loss:   1.1,  Train Acc: 65.62%,  Val Loss:  0.91,  Val Acc: 77.70%,  Time: 0:06:06 *
+Epoch [2/3]
+Iter:   1500,  Train Loss:   1.2,  Train Acc: 70.31%,  Val Loss:  0.89,  Val Acc: 78.18%,  Time: 0:06:31 *
+Iter:   1600,  Train Loss:   1.0,  Train Acc: 67.19%,  Val Loss:  0.87,  Val Acc: 78.18%,  Time: 0:06:57 *
+Iter:   1700,  Train Loss:   0.9,  Train Acc: 77.34%,  Val Loss:  0.86,  Val Acc: 78.55%,  Time: 0:07:22 *
+Iter:   1800,  Train Loss:  0.95,  Train Acc: 75.78%,  Val Loss:  0.85,  Val Acc: 78.61%,  Time: 0:07:48 *
+Iter:   1900,  Train Loss:   1.0,  Train Acc: 72.66%,  Val Loss:  0.84,  Val Acc: 78.65%,  Time: 0:08:13 *
+Iter:   2000,  Train Loss:   1.1,  Train Acc: 71.88%,  Val Loss:  0.83,  Val Acc: 78.73%,  Time: 0:08:38 *
+Iter:   2100,  Train Loss:   1.0,  Train Acc: 71.88%,  Val Loss:  0.82,  Val Acc: 78.90%,  Time: 0:09:03 *
+Iter:   2200,  Train Loss:  0.99,  Train Acc: 72.66%,  Val Loss:  0.81,  Val Acc: 78.94%,  Time: 0:09:29 *
+Iter:   2300,  Train Loss:  0.97,  Train Acc: 72.66%,  Val Loss:   0.8,  Val Acc: 79.06%,  Time: 0:09:54 *
+Iter:   2400,  Train Loss:   1.0,  Train Acc: 67.97%,  Val Loss:  0.79,  Val Acc: 79.29%,  Time: 0:10:19 *
+Iter:   2500,  Train Loss:   1.0,  Train Acc: 70.31%,  Val Loss:  0.79,  Val Acc: 79.21%,  Time: 0:10:44 *
+Iter:   2600,  Train Loss:   1.1,  Train Acc: 67.19%,  Val Loss:  0.78,  Val Acc: 79.25%,  Time: 0:11:10 *
+Iter:   2700,  Train Loss:  0.96,  Train Acc: 68.75%,  Val Loss:  0.78,  Val Acc: 79.37%,  Time: 0:11:35 *
+Iter:   2800,  Train Loss:   1.0,  Train Acc: 69.53%,  Val Loss:  0.77,  Val Acc: 79.40%,  Time: 0:12:01 *
+Epoch [3/3]
+Iter:   2900,  Train Loss:  0.94,  Train Acc: 73.44%,  Val Loss:  0.77,  Val Acc: 79.71%,  Time: 0:12:26 *
+Iter:   3000,  Train Loss:  0.98,  Train Acc: 71.09%,  Val Loss:  0.77,  Val Acc: 79.47%,  Time: 0:12:51 *
+Iter:   3100,  Train Loss:  0.85,  Train Acc: 81.25%,  Val Loss:  0.76,  Val Acc: 79.66%,  Time: 0:13:17 *
+Iter:   3200,  Train Loss:  0.98,  Train Acc: 70.31%,  Val Loss:  0.76,  Val Acc: 79.49%,  Time: 0:13:40 
+Iter:   3300,  Train Loss:  0.91,  Train Acc: 75.78%,  Val Loss:  0.76,  Val Acc: 79.76%,  Time: 0:14:06 *
+Iter:   3400,  Train Loss:   1.0,  Train Acc: 73.44%,  Val Loss:  0.75,  Val Acc: 79.74%,  Time: 0:14:31 *
+Iter:   3500,  Train Loss:  0.78,  Train Acc: 79.69%,  Val Loss:  0.75,  Val Acc: 79.66%,  Time: 0:14:56 *
+Iter:   3600,  Train Loss:  0.98,  Train Acc: 75.00%,  Val Loss:  0.75,  Val Acc: 79.78%,  Time: 0:15:21 *
+Iter:   3700,  Train Loss:   1.0,  Train Acc: 68.75%,  Val Loss:  0.75,  Val Acc: 79.73%,  Time: 0:15:47 *
+Iter:   3800,  Train Loss:  0.93,  Train Acc: 75.78%,  Val Loss:  0.75,  Val Acc: 79.68%,  Time: 0:16:12 *
+Iter:   3900,  Train Loss:  0.88,  Train Acc: 75.78%,  Val Loss:  0.75,  Val Acc: 79.74%,  Time: 0:16:37 *
+Iter:   4000,  Train Loss:  0.76,  Train Acc: 81.25%,  Val Loss:  0.75,  Val Acc: 79.77%,  Time: 0:17:02 *
+Iter:   4100,  Train Loss:  0.99,  Train Acc: 70.31%,  Val Loss:  0.74,  Val Acc: 79.81%,  Time: 0:17:28 *
+Iter:   4200,  Train Loss:   0.9,  Train Acc: 76.56%,  Val Loss:  0.74,  Val Acc: 79.83%,  Time: 0:17:53 *
+Test Loss:  0.72,  Test Acc: 81.15%
+Precision, Recall and F1-Score...
+               precision    recall  f1-score   support
+
+      finance     0.7795    0.7210    0.7491      1000
+       realty     0.8922    0.8190    0.8540      1000
+       stocks     0.7160    0.7210    0.7185      1000
+    education     0.8839    0.8980    0.8909      1000
+      science     0.7713    0.7690    0.7702      1000
+      society     0.7512    0.7970    0.7734      1000
+     politics     0.7337    0.8540    0.7893      1000
+       sports     0.9181    0.8860    0.9018      1000
+         game     0.8819    0.7990    0.8384      1000
+entertainment     0.8175    0.8510    0.8339      1000
+
+     accuracy                         0.8115     10000
+    macro avg     0.8145    0.8115    0.8119     10000
+ weighted avg     0.8145    0.8115    0.8119     10000
+
+Confusion Matrix...
+[[721  14 158   8  25  22  26   9   7  10]
+ [ 27 819  31   3  11  28  25   5  16  35]
+ [137  23 721   2  36   8  59   3   4   7]
+ [  7   7   2 898   0  34  26   3   2  21]
+ [ 13  12  59  13 769  46  42   6  26  14]
+ [  6  19   2  51  16 797  66   2   9  32]
+ [  9  13  21  14  22  44 854   9   2  12]
+ [  0   4   2   3   7  15  30 886  13  40]
+ [  3   3   9  12  92  27  20  16 799  19]
+ [  2   4   2  12  19  40  16  26  28 851]]
+Time usage: 0:00:10

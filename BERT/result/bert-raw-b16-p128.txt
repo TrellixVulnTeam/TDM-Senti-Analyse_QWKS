@@ -1,0 +1,50 @@
+(PyTorch-1.4) [ma-user Bert-Pytorch-Senti-Analyse]$python main.py
+加载数据集
+95990it [00:35, 2691.84it/s]
+11999it [00:04, 2740.21it/s]
+11999it [00:04, 2585.04it/s]
+模型开始前，准备数据时间: 0:00:45
+Epoch [1/3]
+Iter:      0,  Train Loss:  0.73,  Train Acc: 40.62%,  Val Loss:  0.68,  Val Acc: 56.49%,  Time: 0:00:52 *
+Iter:    100,  Train Loss:  0.03,  Train Acc: 100.00%,  Val Loss:   0.1,  Val Acc: 96.91%,  Time: 0:02:31 *
+Iter:    200,  Train Loss:  0.25,  Train Acc: 93.75%,  Val Loss: 0.093,  Val Acc: 96.43%,  Time: 0:04:11 *
+Iter:    300,  Train Loss: 0.075,  Train Acc: 96.88%,  Val Loss: 0.072,  Val Acc: 97.17%,  Time: 0:05:50 *
+Iter:    400,  Train Loss:  0.08,  Train Acc: 96.88%,  Val Loss: 0.071,  Val Acc: 97.28%,  Time: 0:07:29 *
+Iter:    500,  Train Loss: 0.013,  Train Acc: 100.00%,  Val Loss: 0.068,  Val Acc: 97.44%,  Time: 0:09:09 *
+Iter:    600,  Train Loss:  0.09,  Train Acc: 93.75%,  Val Loss:  0.18,  Val Acc: 95.83%,  Time: 0:10:47
+Iter:    700,  Train Loss:  0.23,  Train Acc: 96.88%,  Val Loss:  0.07,  Val Acc: 97.40%,  Time: 0:12:26
+Iter:    800,  Train Loss: 0.054,  Train Acc: 96.88%,  Val Loss: 0.065,  Val Acc: 97.19%,  Time: 0:14:05 *
+Iter:    900,  Train Loss: 0.018,  Train Acc: 100.00%,  Val Loss: 0.092,  Val Acc: 97.21%,  Time: 0:15:44
+Iter:   1000,  Train Loss: 0.095,  Train Acc: 96.88%,  Val Loss:  0.07,  Val Acc: 97.15%,  Time: 0:17:22
+Iter:   1100,  Train Loss: 0.084,  Train Acc: 96.88%,  Val Loss: 0.069,  Val Acc: 97.21%,  Time: 0:19:01
+Iter:   1200,  Train Loss: 0.0053,  Train Acc: 100.00%,  Val Loss: 0.072,  Val Acc: 97.15%,  Time: 0:20:39
+Iter:   1300,  Train Loss: 0.051,  Train Acc: 96.88%,  Val Loss: 0.074,  Val Acc: 97.10%,  Time: 0:22:18
+Iter:   1400,  Train Loss: 0.019,  Train Acc: 100.00%,  Val Loss: 0.066,  Val Acc: 97.57%,  Time: 0:23:57
+Iter:   1500,  Train Loss: 0.078,  Train Acc: 96.88%,  Val Loss: 0.062,  Val Acc: 97.37%,  Time: 0:25:36 *
+Iter:   1600,  Train Loss: 0.037,  Train Acc: 100.00%,  Val Loss: 0.061,  Val Acc: 97.55%,  Time: 0:27:15 *
+Iter:   1700,  Train Loss: 0.064,  Train Acc: 96.88%,  Val Loss: 0.065,  Val Acc: 97.68%,  Time: 0:28:54
+Iter:   1800,  Train Loss:  0.06,  Train Acc: 96.88%,  Val Loss: 0.065,  Val Acc: 97.60%,  Time: 0:30:33
+Iter:   1900,  Train Loss: 0.0026,  Train Acc: 100.00%,  Val Loss: 0.062,  Val Acc: 97.32%,  Time: 0:32:11
+Iter:   2000,  Train Loss: 0.041,  Train Acc: 100.00%,  Val Loss: 0.065,  Val Acc: 97.73%,  Time: 0:33:50
+Iter:   2100,  Train Loss: 0.014,  Train Acc: 100.00%,  Val Loss: 0.064,  Val Acc: 97.55%,  Time: 0:35:28
+Iter:   2200,  Train Loss: 0.018,  Train Acc: 100.00%,  Val Loss:   0.1,  Val Acc: 97.36%,  Time: 0:37:07
+Iter:   2300,  Train Loss:  0.19,  Train Acc: 96.88%,  Val Loss: 0.076,  Val Acc: 97.54%,  Time: 0:38:45
+Iter:   2400,  Train Loss: 0.034,  Train Acc: 100.00%,  Val Loss: 0.063,  Val Acc: 97.52%,  Time: 0:40:24
+Iter:   2500,  Train Loss: 0.011,  Train Acc: 100.00%,  Val Loss: 0.071,  Val Acc: 97.35%,  Time: 0:42:02
+Iter:   2600,  Train Loss: 0.047,  Train Acc: 96.88%,  Val Loss: 0.061,  Val Acc: 97.32%,  Time: 0:43:41
+No optimization for a long time, auto-stopping...
+Test Loss: 0.057,  Test Acc: 97.69%
+Precision, Recall and F1-Score...
+              precision    recall  f1-score   support
+
+    negative     0.9606    0.9939    0.9770      5916
+    positive     0.9939    0.9604    0.9768      6083
+
+    accuracy                         0.9769     11999
+   macro avg     0.9773    0.9771    0.9769     11999
+weighted avg     0.9775    0.9769    0.9769     11999
+
+Confusion Matrix...
+[[5880   36]
+ [ 241 5842]]
+Time usage: 0:00:51
