@@ -14,7 +14,7 @@ GPU服务器：Tesla P100 16GB
 模型下载
 1. 下载bert：
 
-下载地址：GitHub - google-research/bert: TensorFlow code and pre-trained models for BERT
+下载地址：[GitHub - google-research/bert: TensorFlow code and pre-trained models for BERT](https://github.com/google-research/bert)
 
 2. 下载bert预训练模型：
 
@@ -22,4 +22,4 @@ pytorch_model.bin
 bert_config.json
 vocab.txt 
 
-下载地址： https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-chinese.tar.gz
+下载地址： [bert-base](https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-chinese.tar.gz)
