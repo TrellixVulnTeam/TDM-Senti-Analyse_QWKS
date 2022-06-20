@@ -24,5 +24,6 @@
 - ./BERT/data/saved_dict/BERT-unfinetune		BERT非微调的训练得到的模型
 - ./ML/wiki100d/wiki.zh.text.vector			Wiki100维词向量
 下载后放入项目对应位置。
-[链接](https://pan.baidu.com/s/1AZLHnoqzZrZpDA72oPolMA?pwd=2034) 
+
+[下载链接](https://pan.baidu.com/s/1AZLHnoqzZrZpDA72oPolMA?pwd=2034) 
 提取码：2034
