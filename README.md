@@ -4,7 +4,7 @@
 - DL
 - BERT
   
-分别表示基于情感词典、SVM、LSTM和BERT的文本情感分类。
+分别实现基于情感词典、SVM、LSTM和BERT的文本情感分类。
 
 运行每个子项目的main.py文件启动各项目。
 
