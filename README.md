@@ -17,3 +17,12 @@
 - Genism 4.1.2
 
 数据集：[weibo_senti_100k](https://github.com/SophonPlus/ChineseNlpCorpus/blob/master/datasets/weibo_senti_100k)
+
+由于Github文件大小的限制，部分大文件通过百度网盘上传，包括
+- ./BERT/bert_pretrain/pytorch_model.bin		BERT预训练模型
+- ./BERT/data/saved_dict/BERT.ckpt			BERT微调后的训练得到的模型
+- ./BERT/data/saved_dict/BERT-unfinetune		BERT非微调的训练得到的模型
+- ./ML/wiki100d/wiki.zh.text.vector			Wiki100维词向量
+下载后放入项目对应位置。
+[链接](https://pan.baidu.com/s/1AZLHnoqzZrZpDA72oPolMA?pwd=2034) 
+提取码：2034
