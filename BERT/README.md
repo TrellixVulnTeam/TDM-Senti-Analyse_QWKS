@@ -1,7 +1,11 @@
 基于Pytorch的Bert中文文本情感分类
+
 Pytorch版本 1.4
+
 python 3.7
+
 条件允许可以使用GPU训练
+
 GPU服务器：Tesla P100 16GB 
 
 运行main.py启动程序
