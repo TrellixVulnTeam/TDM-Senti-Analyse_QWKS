@@ -1,4 +1,4 @@
-# TDM homework @UCAS
+# Homework @UCAS
 项目包含4个子目录
 - Dict
 - ML 
